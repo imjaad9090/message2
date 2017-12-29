@@ -1,0 +1,13 @@
+
+<div id="page_wrapper">
+
+<h1>Users List</h1>
+
+<% @users.each do |user| %>
+<br>
+<%= user.username %>
+<br>
+  <%= user.email %>
+  <br>
+<% end %>
+</div>
